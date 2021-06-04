@@ -1,0 +1,104 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    margin: 0;
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+  }
+  
+
+  img {
+    padding-top: 0px;
+    vertical-align: middle;
+    border-style: none;
+    width: 120px;
+    border-radius: 50%;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+  }
+    #home {
+      background-color: tan;
+    }
+    #about{
+      background-color: papayawhip;
+    }
+    #projects{
+      background-color: #c9af98;
+    }
+
+    #sideNav .navbar-nav .nav-item .nav-link {
+        font-weight: 800;
+        letter-spacing: 0.05rem;
+        text-transform: uppercase;
+      }
+      #sideNav .navbar-toggler:focus {
+        outline-color: #d48a6e;
+      }
+      @media (min-width: 992px) {
+        #sideNav {
+          text-align: center;
+          position: fixed;
+          top: 0;
+          left: 0;
+          display: flex;
+          flex-direction: column;
+          width: 17rem;
+          height: 100vh;
+        }  
+      
+        #sideNav .navbar-brand {
+          display: flex;
+          margin: auto auto 0;
+          padding: 0.5rem;
+        }
+        #sideNav .navbar-brand .img-profile {
+          max-width: 10rem;
+          max-height: 10rem;
+          border: 0.5rem solid rgba(255, 255, 255, 0.2);
+        }
+        #sideNav .navbar-collapse {
+          display: flex;
+          align-items: flex-start;
+          flex-grow: 0;
+          width: 100%;
+          margin-bottom: auto;
+        }
+        #sideNav .navbar-collapse .navbar-nav {
+          flex-direction: column;
+          width: 100%;
+        }
+        #sideNav .navbar-collapse .navbar-nav .nav-item {
+          display: block;
+        }
+        #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+          display: block;
+        }
+      
+      section.port-section {
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        max-width: 105rem;
+        margin-left: 0px;
+      }
+      /*section.port-section .port-section-content {
+        width: 100%;
+      }*/
+    }
