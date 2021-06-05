@@ -14,6 +14,8 @@ body {
     color: #212529;
     text-align: left;
     background-color: #fff;
+    padding-top: 3.375rem;
+      color: #6c757d;
   }
   
 
@@ -87,6 +89,10 @@ body {
         #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
           display: block;
         }
+        /*.bg-primary {
+          background-color: black;
+        } */
+        
       
       section.port-section {
         display: flex;
@@ -98,7 +104,27 @@ body {
         max-width: 105rem;
         margin-left: 0px;
       }
-      /*section.port-section .port-section-content {
+      section.port-section .port-section-content {
         width: 100%;
-      }*/
+      }
+    }
+    
+    @media (min-width: 992px) {
+      body {
+        padding-top: 0;
+        padding-left: 17rem;
+      }
+    }
+    @media (min-width: 768px) {
+      section.port-section {
+        min-height: 100vh;
+      }
+    }
+    @media (min-width: 992px) {
+      section.port-section {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+      }
     }
